@@ -1,0 +1,15 @@
+<h1>Favorite Foods</h1>
+
+<% time = Time.now %>
+<%= time %>
+
+<ul>
+  <li><%= image_tag 'salsa.jpeg' %> Salsa</li>
+  <li>Cheese</li>
+  <li>Eggs</li>
+  <li>Bread</li>
+</ul>
+
+<a href="/favorite-songs">My Favorite Songs</a>
+<%= link_to 'My Favorite Songs', '/favorite-songs' %>
+<%= link_to 'My Favorite Songs', songs_path %>
